@@ -1,4 +1,4 @@
-package org.example;
+package org.example.password;
 
 import static org.assertj.core.api.Assertions.assertThatCode;
 
@@ -17,7 +17,7 @@ public class PasswordValidatorTest {
   @DisplayName("비밀번호가 최소 8자 이상 최대 12자 이하면 예외가 발생하지 않는다.")
   @Test
   void validatePasswordSuccess() {
-    assertThatCode(()->PasswordValidator.validate("123456789"))
+    assertThatCode(()-> PasswordValidator.validate("123456789"))
         .doesNotThrowAnyException();
   }
 

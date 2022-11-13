@@ -1,4 +1,4 @@
-package org.example;
+package org.example.password;
 
 public class PasswordValidator {
   private static final String WRONG_PASSWORD_LENGTH_EXCEPTION_MESSAGE = "비밀번호는 최소 8자 이상 최대 12자 이하가 되어야 합니다.";
